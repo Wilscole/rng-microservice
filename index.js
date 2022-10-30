@@ -6,7 +6,8 @@ const app = express();
 
 // Create GET request
 app.get("/", (req, res) => {
-    res.send("Express on Vercel");
+    let rng = Math.floor(Math.random() * 101);
+    res.send(rng);
 });
 
 // Initialize server
