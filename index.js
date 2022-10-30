@@ -5,14 +5,12 @@ var cors = require('cors')
 // Initialize Express
 const app = express();
 
-var corsOptions = {
-    origin: 'http://localhost:8000/view-api',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+app.use(cors())
 
-}
+
 
 // Create GET request
-app.get("/", cors(corsOptions), (req, res) => {
+app.get("/", (req, res) => {
     let rng = Math.floor(Math.random() * 101);
     res.json(rng);
 });
