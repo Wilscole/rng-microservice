@@ -13,11 +13,10 @@ The below example highlights the functionality using the JavaScript Fetch API wi
 
 Upon clicking the 'Call API' button the 'getResponse' function will execute as seen below. This will make a call to the api. From there, it will await the response from the API which will send back the randomly generated number and render it into the dom. 
 
-<img src="[https://github.com/Wilscole/rng_microservices/blob/trunk/images/Screen%20Shot%202022-10-31%20at%205.47.53%20PM.png](https://github.com/Wilscole/rng_microservices/blob/trunk/Screen%20Shot%202022-10-31%20at%206.12.40%20PM.png)" alt="Alt text" title="Optional title">
 
 Once the randomly generated number is received in the response, its state is updated the number is rendered into the DOM:
 
-<img src="https://github.com/Wilscole/rng_microservices/blob/trunk/images/Screen%20Shot%202022-10-31%20at%205.47.53%20PM.png" alt="Alt text" title="Optional title">
+
 
 
 
