@@ -17,7 +17,7 @@ Upon clicking the 'Call API' button the 'getResponse' function will execute as s
 
 The below code is executed by the api. Once it receives the request, it generates the number and sends it back in the response to the requesting resource. 
 
-
+<img src="https://github.com/Wilscole/rng_microservices/blob/trunk/Screen%20Shot%202022-10-31%20at%206.22.50%20PM.png" >
      
 Once the randomly generated number is received in the response, its state is updated the number is rendered into the DOM:
 
