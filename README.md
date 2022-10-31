@@ -9,6 +9,7 @@ Users can request data via an http get request. From there, the user will await 
 
 The below example highlights the functionality using the JavaScript Fetch API with React:
 
+![alt text]([http://url/to/img.png](https://github.com/Wilscole/rng_microservices/blob/trunk/images/Screen%20Shot%202022-10-31%20at%205.47.53%20PM.png))
 
 
 
